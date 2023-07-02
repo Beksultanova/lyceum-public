@@ -1,0 +1,224 @@
+.card__text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.banner {
+  position: relative;
+}
+.banner__img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center !important;
+}
+
+.card__btn {
+  position: absolute;
+  bottom: 0;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+.director__card-body {
+  /* width: 50% !important; */
+}
+.director__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover !important;
+  object-position: center !important;
+}
+.banner__info {
+  display: flex !important;
+  flex-flow: wrap !important;
+  /* background-color: red; */
+  justify-content: space-between !important;
+}
+.carousel-info {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+.item-img {
+  width: 243px;
+  height: 243px;
+  object-fit: cover;
+  object-position: center;
+}
+.team-item {
+  height: 100% !important;
+}
+.pagination {
+  justify-content: center !important;
+}
+@media (max-width: 1199px) {
+  .director__card-title {
+    font-size: 1rem !important;
+    width: 100% !important;
+  }
+}
+@media (max-width: 991.98px) {
+  .director__card-title {
+    font-size: 1rem !important;
+  }
+  .director__card-info {
+    margin: 10px 0 13px !important;
+  }
+  .director__card {
+    position: static;
+  }
+  .banner__title {
+    font-size: 40px !important;
+  }
+  .card {
+    flex-direction: row !important;
+  }
+  .carousel-info {
+    align-items: flex-start !important;
+    padding-top: 100px;
+  }
+  .item-img {
+    height: 390px !important;
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .director__img {
+    width: 50% !important;
+    height: 247px !important;
+    object-fit: cover !important;
+    object-position: center !important;
+  }
+  .director__card-title {
+    font-size: 1rem !important;
+  }
+}
+@media (max-width: 575px) {
+  .director__card-title {
+    font-size: 20px !important;
+  }
+  .director__img {
+    width: 100% !important;
+  }
+  .card {
+    flex-direction: column !important;
+  }
+  .director__img {
+    width: 100%;
+    height: 280px;
+  }
+  .banner__img {
+    height: 135% !important;
+  }
+  .director__card {
+    margin-top: 50px;
+  }
+  .carousel-info {
+    height: 135% !important;
+  }
+  .carousel-inner {
+    overflow: visible !important;
+  }
+  .news {
+    margin-top: 280px;
+  }
+}
+@media (max-width: 503px) {
+  .carousel-info {
+    height: 140% !important;
+  }
+  .news {
+    margin-top: 310px;
+  }
+  .director__card {
+    margin-top: 10px !important;
+  }
+  .banner__img {
+    height: 140% !important;
+  }
+}
+@media (max-width: 473px) {
+  .carousel-info {
+    height: 140% !important;
+  }
+  .news {
+    margin-top: 320px;
+  }
+}
+@media (max-width: 366px) {
+  .carousel-info {
+    height: 148% !important;
+  }
+  .news {
+    margin-top: 390px;
+  }
+  .banner__img {
+    height: 148% !important;
+  }
+}
+.history__text {
+  text-align: justify;
+  font-weight: 500;
+  font-size: 20px;
+}
+.carousel__item {
+  height: 120vh;
+}
+.director__card {
+  /* position: relative; */
+  /* z-index: 10;
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translate(0, -50%); */
+  width: 25%;
+  height: auto !important;
+}
+@media (max-width: 991px) {
+  .banner__info-item {
+    position: relative !important;
+  }
+  .row {
+    --bs-gutter-x: 0rem !important;
+  }
+  .director__card {
+    width: 100%;
+    position: absolute;
+    z-index: 1000;
+    top: 110%;
+    left: 0;
+  }
+}
+.banner {
+  width: 100% !important;
+  /* height:100% !important; */
+}
+.btn-check:checked + .btn-outline-light,
+.btn-check:active + .btn-outline-light,
+.btn-outline-light:active,
+.btn-outline-light.active,
+.btn-outline-light.dropdown-toggle.show {
+  background-color: #181d38 !important;
+}
+
+@media (max-width: 1200px) {
+  .card__text {
+    -webkit-line-clamp: 3;
+  }
+}
+@media (max-width: 991px) {
+  .card__text {
+    -webkit-line-clamp: 6;
+  }
+  .card__btn {
+    position: static;
+  }
+}
+@media (max-width: 460px) {
+  .item__text {
+    font-size: 14px;
+    font-weight: normal;
+  }
+}
